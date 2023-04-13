@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">SCOUTO</string>
+    <string name="select_make_prompt">Select car make</string>
+    <string name="select_model_prompt">Select car model</string>
+    <string name="add_car_button_text">Add Car</string>
+    <string name="logout_button_text">Logout</string>
+    <string name="delete_car_button_text">Delete Car</string>
+    <!-- Navigation Menu -->
+    <string name="menu_add_car">Add New Car</string>
+    <string name="menu_sign_out">Sign Out</string>
+
+    <!-- Car Maker/Model Labels -->
+    <string name="label_make">Make:</string>
+    <string name="label_model">Model:</string>
+
+    <!-- Button Labels -->
+    <string name="label_add_car">Add Car</string>
+    <string name="label_upload_image">Upload Image</string>
+    <string name="label_delete_car">Delete Car</string>
+
+    <!-- Dialog Titles -->
+    <string name="title_add_car">Add New Car</string>
+    <string name="title_upload_image">Upload Image</string>
+
+    <!-- Snackbar Messages -->
+    <string name="message_car_added">Car added successfully.</string>
+    <string name="message_car_deleted">Car deleted successfully.</string>
+
+    <!-- Error Messages -->
+    <string name="error_make_required">Please select a car make.</string>
+    <string name="error_model_required">Please enter a car model.</string>
+    <string name="error_image_required">Please select an image to upload.</string>
+
+</resources>

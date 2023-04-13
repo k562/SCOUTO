@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:text="Dashbord"
+            android:textColor="@color/black"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/LogOutBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginStart="90sp"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#FF6666"
+            android:foregroundGravity="left"
+            android:shadowColor="@color/white"
+            android:text="LogOut"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/white"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/car_image_edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="Select Car Make" />
+
+    <Spinner
+        android:id="@+id/car_make_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D0D0D0"
+        android:outlineAmbientShadowColor="@color/white"
+        android:outlineSpotShadowColor="@color/white"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="Select Car Model" />
+
+    <Spinner
+        android:id="@+id/car_model_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D0D0D0"
+        android:layout_marginTop="8dp"
+        android:outlineAmbientShadowColor="@color/white"
+        android:outlineSpotShadowColor="@color/white" />
+
+    <Button
+        android:id="@+id/add_car_button"
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:backgroundTint="#D0D0D0"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:shadowColor="@color/white"
+        android:textColorHighlight="@color/white"
+        android:layout_marginTop="16dp"
+        android:text="Add Car" />
+
+    <TextView
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:text="Your Cars"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/cars_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@null"
+        android:dividerHeight="0dp" />
+
+</LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#E0E0E0"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/car_image_view"
+            android:layout_width="99dp"
+            android:layout_height="101dp"
+            android:adjustViewBounds="true"
+            android:background="@color/white"
+            android:src="@drawable/ic_action_name" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/car_make_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="Car Make"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/car_model_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="Car Model"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/upload_image_button"
+                    android:layout_width="100dp"
+                    android:layout_height="37dp"
+                    android:backgroundTint="#6666FF"
+                    android:text="Add Car Image"
+                    android:textSize="11dp" />
+
+                <Button
+                    android:id="@+id/delete_car_button"
+                    android:layout_width="100dp"
+                    android:layout_height="37dp"
+                    android:layout_marginStart="8dp"
+                    android:backgroundTint="#FF6666"
+                    android:text="Delete"
+                    android:textSize="11dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
